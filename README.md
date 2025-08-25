@@ -18,48 +18,6 @@ cat << 'EOF' > README.md
 
 ---
 
-## 📂 Estructura del proyecto
-
-\`\`\`
-enterprise-zero-trust-architecture/
-├── README.md
-├── backend
-│   ├── api
-│   │   ├── controllers
-│   │   ├── middleware
-│   │   ├── routes
-│   │   ├── services
-│   │   ├── utils
-│   │   └── server.js
-│   ├── package.json
-│   └── package-lock.json
-├── config/                  # Configuración de entorno y despliegue
-├── infra/
-│   └── terraform/
-│       └── environments/    # Infraestructura como código por entorno
-├── scripts/
-│   ├── monitoring/
-│   │   └── monitor.py       # Script AIOps de monitoreo de sistema
-│   ├── auditing/
-│   └── backup/
-├── docs/
-│   ├── architecture/        # Diagramas, decisiones de diseño
-│   └── security/            # Políticas, controles, Zero Trust docs
-├── frontend/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       └── styles/
-├── tests/
-│   ├── integration/
-│   └── unit/
-├── tools/
-├── logs/
-├── bin/
-\`\`\`
-
----
-
 ## ⚙️ Instalación y ejecución
 
 \`\`\`bash
