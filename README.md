@@ -42,5 +42,5 @@ Este proyecto integra automatización con scripts Python y puede expandirse con 
 
 ## ✍️ Autor
 
-**Emanuel Gonzalez**  
+© 2025 Emanuel — Licencia MIT
 
