@@ -43,5 +43,4 @@ Este proyecto integra automatización con scripts Python y puede expandirse con 
 ## ✍️ Autor
 
 **Emanuel Gonzalez**  
-Cloud Solutions Architect & SysOps (AWS Certified – *en proceso*) | DevSecOps | AI Automation  
-[GitHub](https://github.com/Emanuelgm1998) 
+
