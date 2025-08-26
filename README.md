@@ -1,9 +1,9 @@
 # 🛡️ Enterprise Zero Trust Architecture Suite
 
-> **Arquitectura moderna y segura** basada en principios **Zero Trust**, con foco en **automatización**, **observabilidad**, **DevSecOps** y **buenas prácticas cloud‑native**. Este repositorio sirve como **plantilla profesional** lista para evolucionar a producción.
+> Arquitectura moderna y segura basada en principios **Zero Trust**, con foco en **automatización**, **observabilidad**, **DevSecOps** y **buenas prácticas cloud‑native**. Este repositorio sirve como **plantilla profesional** lista para evolucionar a producción.
 
 <p align="left">
-  <a href="https://github.com/Emanuelgm1998/enterprise-zero-trust-architecture"><img alt="Repo" src="https://img.shields.io/badge/repo-enterprise--zero--trust--architecture-blue"></a>
+  <img alt="Repo" src="https://img.shields.io/badge/repo-enterprise--zero--trust--architecture-blue">
   <img alt="Node" src="https://img.shields.io/badge/node-%E2%89%A518.x-green">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-black">
   <img alt="CI" src="https://img.shields.io/badge/CI-GitHub%20Actions-%232671E5">
@@ -24,33 +24,33 @@
 
 ```mermaid
 flowchart LR
-  U[Users/Services] -->|OIDC/JWT+mTLS| GW[API Gateway/Reverse Proxy]
-  GW --> SVC1[Core API (Node/Express)]
-  GW --> SVC2[Auth/Identity (opc.)]
-  GW --> SVC3[Audit/Events]
-  SVC1 --> METRICS[(/metrics)]
-  SVC1 --> LOGS[(Structured Logs)]
+  U["Users/Services"] -->|OIDC/JWT + mTLS| GW["API Gateway / Reverse Proxy"]
+  GW --> SVC1["Core API<br/>(Node / Express)"]
+  GW --> SVC2["Auth / Identity (opc.)"]
+  GW --> SVC3["Audit / Events"]
+  SVC1 --> METRICS["/metrics"]
+  SVC1 --> LOGS["Structured Logs"]
   subgraph Sec
-    VAULT[(Secrets Vault)]
-    OPA[OPA/Gatekeeper (Policy)]
+    VAULT["Secrets Vault"]
+    OPA["OPA / Gatekeeper (Policy)"]
   end
   SVC1 --- VAULT
   SVC1 --- OPA
   subgraph Observability
-    PROM[Prometheus]
-    GRAF[Grafana]
+    PROM["Prometheus"]
+    GRAF["Grafana"]
   end
   METRICS --> PROM --> GRAF
   subgraph CI/CD
-    GH[GitHub Actions]
-    TRIVY[Image Scan]
-    CODEQL[CodeQL SAST]
+    GH["GitHub Actions"]
+    TRIVY["Image Scan"]
+    CODEQL["CodeQL SAST"]
   end
   GH --> TRIVY
   GH --> CODEQL
   subgraph IaC
-    TF[Terraform]
-    CLOUD[(Cloud Resources)]
+    TF["Terraform"]
+    CLOUD["Cloud Resources"]
   end
   TF --> CLOUD
 ```
@@ -90,7 +90,7 @@ flowchart LR
 ├─ infra/
 │  └─ terraform/ (módulos: vpc, rds, s3, eks opc.)
 ├─ .github/workflows/ (CI/CD)
-├─ docs/ (Jekyll)  
+├─ docs/ (Jekyll)
 ├─ docker-compose.yml
 ├─ .env.example
 └─ README.md
@@ -271,6 +271,14 @@ Ejemplos en `aiops/`:
 * Reporta vulnerabilidades por Issues con etiqueta `security` (sin exponer datos sensibles).
 
 ---
+
+## 👤 Autor
+
+**© 2025 Emanuel** — Licencia **MIT**
+
+* 🌐 LinkedIn: [https://www.linkedin.com/in/emanuel-gonzalez-michea/](https://www.linkedin.com/in/emanuel-gonzalez-michea/)
+* 🧰 GitHub: [https://github.com/Emanuelgm1998/enterprise-zero-trust-architecture](https://github.com/Emanuelgm1998/enterprise-zero-trust-architecture)
+
 
 ## 👤 Autor
 
