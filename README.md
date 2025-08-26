@@ -279,6 +279,3 @@ Ejemplos en `aiops/`:
 * 🌐 LinkedIn: [https://www.linkedin.com/in/emanuel-gonzalez-michea/](https://www.linkedin.com/in/emanuel-gonzalez-michea/)
 * 🧰 GitHub: [https://github.com/Emanuelgm1998/enterprise-zero-trust-architecture](https://github.com/Emanuelgm1998/enterprise-zero-trust-architecture)
 
----
-
-> **¿Buscas una guía de despliegue paso a paso?** Revisa `docs/` y `infra/` para ejemplos de staging/producción. Este README es tu mapa: arranca simple y evoluciona a una **Zero Trust Architecture** real sin rehacer el proyecto.
