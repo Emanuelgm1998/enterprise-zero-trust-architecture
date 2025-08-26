@@ -280,10 +280,3 @@ Ejemplos en `aiops/`:
 * 🧰 GitHub: [https://github.com/Emanuelgm1998/enterprise-zero-trust-architecture](https://github.com/Emanuelgm1998/enterprise-zero-trust-architecture)
 
 
-## 👤 Autor
-
-**© 2025 Emanuel** — Licencia **MIT**
-
-* 🌐 LinkedIn: [https://www.linkedin.com/in/emanuel-gonzalez-michea/](https://www.linkedin.com/in/emanuel-gonzalez-michea/)
-* 🧰 GitHub: [https://github.com/Emanuelgm1998/enterprise-zero-trust-architecture](https://github.com/Emanuelgm1998/enterprise-zero-trust-architecture)
-
