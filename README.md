@@ -274,7 +274,7 @@ Ejemplos en `aiops/`:
 
 ## 👤 Autor
 
-**© 2025 Emanuel** — Licencia **MIT**
+**© 2025 Emanuel** 
 
 * 🌐 LinkedIn: [https://www.linkedin.com/in/emanuel-gonzalez-michea/](https://www.linkedin.com/in/emanuel-gonzalez-michea/)
 
